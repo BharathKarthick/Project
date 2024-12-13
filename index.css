@@ -50,7 +50,7 @@ body{
 
 }
 
-@media screen and (min-width:375px){
+@media screen and (min-width:375px) and (max-width:700px){
     .image{
         left: 105px;
     } 
@@ -68,8 +68,29 @@ body{
         top: 100px;
     }
 }
-@media screen and (min-width:425px){
+@media screen and (min-width:425px) and (max-width:700px){
     .image{
         left: 120px;
+    }
+}
+@media screen and (min-width:320px){
+    .container_block{
+        top: 40px;
+        width: 360px;
+        height: 340px;
+        
+    }
+    .image{
+        left: 85px;
+        width: 145px;
+        height: 190px;
+    }
+    .name{
+        font-size: 17px;
+        top:80px ;
+    }
+    .content{
+        font-size: 17px;
+        top: 80px;
     }
 }
